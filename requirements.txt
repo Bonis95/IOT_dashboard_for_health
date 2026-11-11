@@ -1,0 +1,5 @@
+fastapi>=0.110
+uvicorn>=0.29
+PyMySQL>=1.1
+# Needed by PyMySQL for MySQL 8's default login method (caching_sha2_password).
+cryptography>=42
